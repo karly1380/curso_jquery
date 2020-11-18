@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="../jquery-3.5.1.min.js"></script>
+	
+	<title></title>
+</head>
+<body>
+
+<div id="midiv">Mi nombre es Karla :D</div>
+<button id="miboton">Clic aqui</button>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+      
+       $('#miboton').click(function(){
+       	  alert($('#midiv').text());
+          $('#midiv').text();
+          $('#midiv').text('agregamos un texto');
+       });
+	});
+</script>
